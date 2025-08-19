@@ -11,7 +11,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Untree.co">
-  <link rel="shortcut icon" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
 
   <meta name="description" content="" />
   <meta name="keywords" content="" />
@@ -29,7 +29,81 @@
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <title>UF Selected Works - Skylar Zhang</title>
+  <style>
+    .fixed-top {
+      position: fixed !important;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+      background-color: rgba(255, 255, 255, 0.95) !important;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    body {
+      padding-top: 80px;
+    }
+  </style>
+
+  <style>
+    /* 自定义按钮样式 */
+    .btn-outline-warning {
+      color: #ffc107 !important;
+      border-color: #ffc107 !important;
+      background-color: white !important;
+    }
+    
+    .btn-outline-primary {
+      color: #007bff !important;
+      border-color: #007bff !important;
+      background-color: white !important;
+    }
+    
+    .btn-outline-success {
+      color: #28a745 !important;
+      border-color: #28a745 !important;
+      background-color: white !important;
+    }
+    
+    /* 悬停效果 */
+    .btn-outline-warning:hover {
+      color: white !important;
+      background-color: #ffc107 !important;
+      border-color: #ffc107 !important;
+    }
+    
+    .btn-outline-primary:hover {
+      color: white !important;
+      background-color: #007bff !important;
+      border-color: #007bff !important;
+    }
+    
+    .btn-outline-success:hover {
+      color: white !important;
+      background-color: #28a745 !important;
+      border-color: #28a745 !important;
+    }
+    
+    /* 图片裁剪样式 */
+    .portfolio-item img[src*="Screenshot-2025-07-30-004037"] {
+      object-fit: cover;
+      object-position: center;
+      height: 250px;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .portfolio-item img[src*="Screenshot-2025-07-30-010647"] {
+      object-fit: cover;
+      object-position: center;
+      height: 250px;
+      width: 100%;
+      overflow: hidden;
+    }
+  </style>
+
+  <title>Selected Works - Skylar Zhang</title>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
@@ -52,18 +126,21 @@
     <div class="site-mobile-menu-body"></div>
   </div>
   
-  <nav class="site-nav dark mb-5 site-navbar-target">
+  <nav class="site-nav dark mb-5 site-navbar-target fixed-top">
     <div class="container">
       <div class="site-navigation">
         <a href="index.html" class="logo m-0">Skylar Zhang<span class="text-primary">.</span></a>
 
  <ul id="filters" class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
-    <li><a href="#" class="nav-link" data-filter="*">All Projects</a></li>
-    <li><a href="#" class="nav-link" data-filter=".generative-ai">Generative AI</a></li>
-    <li><a href="#" class="nav-link" data-filter=".urban-analysis">Urban Analysis</a></li>
-    <li><a href="#" class="nav-link" data-filter=".smart-devices">Smart Devices</a></li>
-    <li><a href="#" class="nav-link" data-filter=".modeling">Modeling</a></li>
-    <li><a href="#" class="nav-link" data-filter=".social-media">Social Media</a></li>
+    <li><a href="#" class="nav-link active" data-filter="*">All Projects</a></li>
+    <li><a href="#" class="nav-link" data-filter=".generative-ai">Generative AI & Design</a></li>
+    <li><a href="#" class="nav-link" data-filter=".urban-analysis">Urban Analytics & Civic Tech</a></li>
+    <li><a href="#" class="nav-link" data-filter=".smart-devices">Smart Devices & Digital Fabrication</a></li>
+    <li><a href="#" class="nav-link" data-filter=".modeling">Digital Modeling & Simulation</a></li>
+    <li><a href="#" class="nav-link" data-filter=".social-media">Interactive Media & Social Platforms</a></li>
+    <li><a href="#" class="nav-link" data-filter=".historical-preservation">Historical Preservation & Cultural Heritage</a></li>
+    <li><a href="#" class="nav-link" data-filter=".publications">Publications</a></li>
+    <li><a href="#" class="nav-link" data-filter=".exhibitions">Exhibitions</a></li>
   </ul>
 
 
@@ -90,27 +167,32 @@
         <div class="col-md-7">
           <h1 class="heading gsap-reveal-hero mb-3"><strong>Selected Works<span class="text-primary">.</span> Portfolio</strong></h1>
           <h2 class="subheading gsap-reveal-hero mb-4">
-My work explores the intersection of <strong>urban analytics</strong>, <strong>generative design</strong>, and <strong>machine learning</strong> to understand how spatial systems and social dynamics co-evolve. Each project builds tools that bridge data and design, with a growing focus on <strong>generative urbanism</strong> and <strong>participatory spatial computing</strong>. I’m now consolidating my multidisciplinary experience into a cohesive research direction centered on how emerging technologies can help cities <strong>build resilience</strong> through cultural memory, adaptive expression, and human-centered design.
-
+My work bridges <strong>digital and physical</strong> worlds through <strong>interdisciplinary</strong> approaches. I combine <strong>design and technology</strong> to create tools that connect data with spatial experiences, exploring how emerging technologies can enhance urban environments through human-centered innovation.
 
           </h2>
-          <p class="gsap-reveal-hero"><a href="https://skylarzhang.netlify.app/" target="_blank" class="btn btn-outline-black">More projects here</a></p>    
+          <p class="gsap-reveal-hero"><a href="https://www.linkedin.com/in/siqi-skylar-zhang" target="_blank" class="btn btn-outline-black">LinkedIn Profile</a></p>    
         </div>
       </div>
       
     </div>
   </div>
   <!-- ↓ 在这里插入 ↓ -->
-<div class="untree_co-section">
-  <div class="container text-center mb-5" id="button-filters">
-    <button class="btn btn-primary active" data-filter="*">All Projects</button>
-    <button class="btn btn-outline-primary" data-filter=".generative-ai">Generative AI</button>
-    <button class="btn btn-outline-primary" data-filter=".urban-analysis">Urban Analysis</button>
-    <button class="btn btn-outline-primary" data-filter=".smart-devices">Smart Devices</button>
-    <button class="btn btn-outline-primary" data-filter=".modeling">Modeling</button>
-    <button class="btn btn-outline-primary" data-filter=".social-media">Social Media</button>
+  <!-- 分类按钮组 -->
+  <div class="untree_co-section">
+    <div class="container text-center" id="button-filters" style="max-width: 1400px; margin: 0 auto;">
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;">
+        <button class="btn btn-outline-warning active" data-filter="*">All Projects</button>
+                 <button class="btn btn-outline-primary" data-filter=".generative-ai">Generative AI & Design</button>
+        <button class="btn btn-outline-primary" data-filter=".urban-analysis">Urban Analytics & Civic Tech</button>
+        <button class="btn btn-outline-primary" data-filter=".smart-devices">Smart Devices & Digital Fabrication</button>
+        <button class="btn btn-outline-primary" data-filter=".modeling">Digital Modeling & Simulation</button>
+        <button class="btn btn-outline-primary" data-filter=".social-media">Interactive Media & Social Platforms</button>
+        <button class="btn btn-outline-primary" data-filter=".historical-preservation">Historical Preservation & Cultural Heritage</button>
+        <button class="btn btn-outline-success" data-filter=".publications">Publications</button>
+        <button class="btn btn-outline-success" data-filter=".exhibitions">Exhibitions</button>
+      </div>
+    </div>
   </div>
-</div>
 
 
   <div class="untree_co-section untree_co-section-4 pb-0"  id="portfolio-section">
@@ -124,7 +206,7 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
 
         <div id="posts" class="row">
 
-          <div class="item generative-ai col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <div class="item historical-preservation generative-ai publications col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="text-to-garden.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
@@ -137,7 +219,7 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
             </a>
           </div>
           
-          <div class="item urban-analysis col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <div class="item urban-analysis publications col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="urban.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
@@ -151,7 +233,7 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
           </div>
 
           
-          <div class="item urban-analysis col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <div class="item urban-analysis exhibitions col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="color.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
@@ -161,6 +243,18 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
                 </div>
               </div>
               <img src="https://i.postimg.cc/jjPLqZmr/Screenshot-2025-02-21-054819.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+          <div class="item smart-devices exhibitions col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="air.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Switchable Air Pillow Pavilion</h3>
+                  <p>2023</p>
+                </div>
+              </div>
+              <img src="https://i.postimg.cc/XJnV7pjL/Screenshot-2025-02-21-052033.png" class="lazyload  img-fluid" alt="Images" />
             </a>
           </div>
                     <div class="item modeling col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
@@ -188,6 +282,66 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
               <img src="https://i.postimg.cc/rmNt8QbP/Screenshot-2025-02-21-054550.png" class="lazyload  img-fluid" alt="Images" />
             </a>
           </div>
+          <div class="item social-media exhibitions col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="game.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>EmotionEcho.exe</h3>
+                  <p>2025</p>
+                </div>
+              </div>
+              <img src="https://i.postimg.cc/dQTbzYP7/MSCDP-Thompson-Siqi-Zhang-SP25-emotionecho-gamepic.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+          <div class="item urban-analysis col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="citypulse.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>CityPulse: A Crowdsourced Platform for Community-Driven Governance</h3>
+                  <p>2025</p>
+                </div>
+              </div>
+              <img src="https://i.postimg.cc/7YhRLzkb/Screenshot-2025-08-14-143008.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+          <div class="item historical-preservation exhibitions col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="qls.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Preserving Qingliangshan: A Digital Restoration</h3>
+                  <p>2022</p>
+                </div>
+              </div>
+              <img src="https://i.postimg.cc/FKnbL9xQ/Picture3.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+          <div class="item historical-preservation col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="survey.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Architectural Survey of the Wuliang Hall, Suzhou Kaiyuan Temple</h3>
+                  <p>2022</p>
+                </div>
+              </div>
+              <img src="https://i.postimg.cc/26mGd7Yr/Screenshot-2025-08-19-170121.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+          <div class="item historical-preservation exhibitions col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="cc.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Caisson Ceiling Study of the Wuliang Hall, Suzhou Kaiyuan Temple</h3>
+                  <p>2022</p>
+                </div>
+              </div>
+              <img src="https://i.postimg.cc/WbptxWjx/Screenshot-2025-08-19-171920.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
                               <div class="item urban-analysis col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="mount.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
               <div class="overlay">
@@ -205,7 +359,7 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
 
 
 
-          <div class="item urban-analysis col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+          <div class="item urban-analysis publications col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="colorcode.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
@@ -222,7 +376,7 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
                 <div class="portfolio-item-content">
-                  <h3>A Typology-Sensitive Daylight Simulator</h3>
+                  <h3>Typology-Sensitive Daylight Simulator</h3>
                   <p>2024</p>
                 </div>
               </div>
@@ -233,20 +387,9 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
 
 
 
-          <div class="item smart-devices col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="air.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Switchable Air Pillow Pavilion</h3>
-                  <p>2023</p>
-                </div>
-              </div>
-              <img src="https://i.postimg.cc/XJnV7pjL/Screenshot-2025-02-21-052033.png" class="lazyload  img-fluid" alt="Images" />
-            </a>
-          </div>
 
-          <div class="item smart-devices col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+
+          <div class="item smart-devices exhibitions col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="pulse.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
@@ -258,6 +401,24 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
               <img src="https://i.postimg.cc/fR5jHJ8x/Screenshot-2025-07-30-010647.png" class="lazyload  img-fluid" alt="Images" />
             </a>
           </div>
+
+
+
+          <div class="item urban-analysis col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="dog.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Dogs of NYC</h3>
+                  <p>2024</p>
+                </div>
+              </div>
+              <img src="https://i.postimg.cc/zXvqvPzT/Screenshot-2025-08-19-160011.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+
+
             <div class="item social-media col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
             <a href="tiktok.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
               <div class="overlay">
@@ -271,18 +432,62 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
             </a>
           </div>
 
-          <div class="item social-media col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="game.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+          <div class="item smart-devices exhibitions col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="3d.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
               <div class="overlay">
                 <span class="wrap-icon icon-link2"></span>
                 <div class="portfolio-item-content">
-                  <h3>EmotionEcho.exe</h3>
-                  <p>2025</p>
+                  <h3>3D Printing Haute Couture</h3>
+                  <p>2022</p>
                 </div>
               </div>
-              <img src="https://i.postimg.cc/dQTbzYP7/MSCDP-Thompson-Siqi-Zhang-SP25-emotionecho-gamepic.png" class="lazyload  img-fluid" alt="Images" />
+              <img src="https://i.postimg.cc/FH1PVkF8/2164400-C151-CA8-D07-A04476-E719863-D0.jpg" class="lazyload  img-fluid" alt="Images" />
             </a>
           </div>
+
+          <div class="item smart-devices exhibitions col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="knitted.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Knitted Tile Vaults</h3>
+                  <p>2023</p>
+                </div>
+              </div>
+              <img src="https://i.postimg.cc/9MVZknT4/IMG-2770.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item social-media col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="ab.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>AbstractMotions</h3>
+                  <p>2024</p>
+                </div>
+              </div>
+              <img src="https://i.postimg.cc/SNqNqLDY/Screenshot-2025-02-24-193944.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item social-media generative-ai col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="who.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Rethinking AI: Who Do You Think I Am?</h3>
+                  <p>2024</p>
+                </div>
+              </div>
+              <img src="https://i.postimg.cc/PxhFNqcy/image.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+
+
+
+
 
 
 
@@ -323,82 +528,11 @@ My work explores the intersection of <strong>urban analytics</strong>, <strong>g
 
 
     <script src="js/custom.js"></script>
-<script>
-  $(window).on('load', function() {
-    // 1) 等图片加载完再初始化 Isotope
-    var $grid = $('#posts').imagesLoaded(function(){
-      return $('#posts').isotope({
-        itemSelector: '.item',
-        layoutMode: 'fitRows'
-      });
-    });
 
-    // 2) 右侧菜单过滤 + 滚动
-    $('#filters').on('click', 'a', function(e){
-      e.preventDefault();
-      var filter = $(this).data('filter');
-      $grid.isotope({ filter: filter });
-      $('#filters a').removeClass('active');
-      $(this).addClass('active');
-      // 平滑滚动到 portfolio 区块
-      $('html, body').animate({
-        scrollTop: $('#portfolio-section').offset().top
-      }, 600);
-    });
-
-    // 3) 按钮区过滤 + 滚动
-    $('#button-filters').on('click', 'button', function(e){
-      e.preventDefault();
-      var filterValue = $(this).data('filter');
-      $grid.isotope({ filter: filterValue });
-
-      // 更新按钮样式
-      $('#button-filters button')
-        .removeClass('btn-primary active')
-        .addClass('btn-outline-primary');
-      $(this)
-        .removeClass('btn-outline-primary')
-        .addClass('btn-primary active');
-
-      // 平滑滚动到 portfolio 区块
-      $('html, body').animate({
-        scrollTop: $('#portfolio-section').offset().top
-      }, 600);
-    });
-  });
-</script>
 <!-- 1. 回到顶部按钮（放在 body 底部） -->
 <div id="back-to-top">↑ Top</div>
 
-<!-- 2. 样式：固定在左下角 -->
-<style>
-  #back-to-top {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    background: #333;
-    color: #fff;
-    padding: 10px 14px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    z-index: 10000;
-    opacity: 0.7;
-    transition: opacity 0.3s;
-  }
-  #back-to-top:hover {
-    opacity: 1;
-  }
-</style>
 
-<!-- 3. 脚本：点击平滑滚动到顶部 -->
-<script>
-  $(function(){
-    $('#back-to-top').on('click', function(){
-      $('html, body').animate({ scrollTop: 0 }, 600);
-    });
-  });
-</script>
 
 
 

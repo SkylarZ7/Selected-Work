@@ -595,6 +595,57 @@ var owlSingleSlider = function () {
 	}
 }
 
+// Isotope过滤功能
+$(window).on('load', function() {
+  // 1) 等图片加载完再初始化 Isotope
+  var $grid = $('#posts').imagesLoaded(function(){
+    return $('#posts').isotope({
+      itemSelector: '.item',
+      layoutMode: 'fitRows'
+    });
+  });
+
+  // 2) 右侧菜单过滤 + 滚动
+  $('#filters').on('click', 'a', function(e){
+    e.preventDefault();
+    var filter = $(this).data('filter');
+    $grid.isotope({ filter: filter });
+    $('#filters a').removeClass('active');
+    $(this).addClass('active');
+    // 平滑滚动到 portfolio 区块
+    $('html, body').animate({
+      scrollTop: $('#portfolio-section').offset().top
+    }, 600);
+  });
+
+  // 3) 按钮区过滤 + 滚动
+  $('#button-filters').on('click', 'button', function(e){
+    e.preventDefault();
+    var filterValue = $(this).data('filter');
+    $grid.isotope({ filter: filterValue });
+
+    // 更新按钮样式
+    $('#button-filters button')
+      .removeClass('btn-primary active')
+      .addClass('btn-outline-primary');
+    $(this)
+      .removeClass('btn-outline-primary')
+      .addClass('btn-primary active');
+
+    // 平滑滚动到 portfolio 区块
+    $('html, body').animate({
+      scrollTop: $('#portfolio-section').offset().top
+    }, 600);
+  });
+});
+
+// 回到顶部按钮功能
+$(function(){
+  $('#back-to-top').on('click', function(){
+    $('html, body').animate({ scrollTop: 0 }, 600);
+  });
+});
+
 
 })
 
